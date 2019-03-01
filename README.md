@@ -49,7 +49,7 @@ Console.WriteLine(game.CurrentState);
 ```
 ### Detailed information
 
-The state machine store a HashSet of TTransition objects and a  Dictionary<TFrom, TTo>. When you register a transition this will be unique and will execute an action that change the state from m1 to m2. A transition from m1 to m2 is unique (m2 to m1 is not the same that m1 to m2, thus it will be valid)
+The state machine store a HashSet of TTransition objects and a  Dictionary<TFrom, TTo>. When you register a transition this will be unique and will execute an action that change the state from m1 to m2. A transition from m1 to m2 is unique
 
 ## IListRandomizer
 Use this interface and its implementation to ordeer a list randomly
