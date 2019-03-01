@@ -1,13 +1,11 @@
 ﻿using Autofac;
-using Dawlin.Util.Abstract;
+using Dutil.Core.Abstract;
 
-namespace Dawlin.Util.Impl
+namespace Dutil.Core.Impl
 {
     public sealed class DawlinUtilModule : Module
     {
-        protected override void Load(ContainerBuilder builder)
-        {
+        protected override void Load(ContainerBuilder builder) =>
             builder.RegisterType<ListRandomizer>().As<IListRandomizer>();
-        }
     }
 }

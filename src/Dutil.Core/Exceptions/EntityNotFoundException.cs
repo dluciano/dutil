@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Dawlin.Abstract.Entities.Exceptions
+namespace Dutil.Core.Exceptions
 {
+    /// <summary>
+    ///     This exception can be thrown when an entity is not found in a store
+    /// </summary>
     [Serializable]
     public class EntityNotFoundException : Exception
     {

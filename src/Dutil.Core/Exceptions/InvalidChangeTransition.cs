@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Dawlin.Util.Impl.Exceptions
+namespace Dutil.Core.Exceptions
 {
+    /// <summary>
+    ///     This exception is thrown when trying to execute an invalid transition
+    /// </summary>
     [Serializable]
     public class InvalidChangeTransition : Exception
     {
