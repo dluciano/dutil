@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Dutil</PackageId>
+    <Version>0.0.1-alpha</Version>
+    <Authors>Dawlin</Authors>
+    <Company>SSD Smart Software Development</Company>
+    <Description>Common utilities classes like a finite state machine, an IEntity class, etc.</Description>
+    <Copyright>Dawlin 2019</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/dluciano/dutil/</RepositoryUrl>
+    <PackageTags>utilities state finite machine entities</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
